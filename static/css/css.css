@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "High-Marker-Flat";
+    src: url("../css/High-Marker-Flat.ttf");
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    width:99.6%;
+    height:100%;
+    color:white;
+    font-family: "High-Marker-Flat"
+}
+
+.banner {
+    color:white;
+    background-color:transparent;
+    margin:0 auto;
+    margin-left:4.1%;
+    text-align: center;
+    width:95%;
+    font-weight:bold;
+    margin-top:1%;
+}
+
+.word1 {
+    display: inline;
+    background-color: black;
+    background-size: 25%;
+    font-size:30px;
+    padding-left:1%;
+    padding-left:.5%;
+    padding-right:.5%;
+}
+.word{
+    display: inline;
+    background-size: 25%;
+    background-color: orange;
+    font-size:30px;
+    color:black;
+    padding-left:.5%;
+    padding-right:.5%;
+}
+
+#banner1 {
+    padding-bottom: .5%;
+
+}
+
+.sidebar {
+    display:block;
+    vertical-align: top;
+    float:left;
+    position:absolute;
+    margin-top:15%;
+    font-weight: lighter;
+}
+
+.sidebar-left {
+    display: inline-block;
+    list-style: none;
+    width:100%;
+    font-size:120%;
+    color:white;
+    text-shadow: black 2px 2px;
+    font-weight:lighter;
+}
+
+.more {
+    position:fixed;
+    bottom:0;
+    margin:0 auto;
+    width:100%;
+    text-align: center;
+}
+
+.sidebar-bottom {
+    color:white;
+    list-style: none;
+    margin-left:20%;
+    font-weight: lighter;
+    text-shadow: black 2px 2px;
+
+}
+
+.list-bottom{
+    width:20%;
+    float:left;
+    margin-bottom:1%;
+}
+
+.list-side {
+    padding-bottom:5%;
+}
+
+a:link {
+    /* Applies to all unvisited links */
+    text-decoration:  none;
+    font-weight:      bold;
+    color: white;
+}
+
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+  font-weight:      bold;
+  color:            #fff;
+}
+
+a:hover   {
+  /* Applies to links under the pointer */
+  font-weight:      bold;
+  color:            #ff9300;
+  } 
+
+a:active  {
+  /* Applies to activated links */
+  font-weight:      bold;
+}
+
+

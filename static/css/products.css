@@ -1,0 +1,153 @@
+/* Grid container */
+#p-grid {
+    max-width: 1200px;
+    margin-left:21%;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    display: grid;
+    /* Width of columns */
+    grid-template-columns: 33% 33% 33%;
+}
+/* Product items */
+div.p-grid-in {
+    box-sizing: border-box;
+    margin: 5px; 
+    padding: 10px;
+    border: 1px solid #e8f0ff;
+    background: rgb(234, 234, 234);
+}
+img.p-img {
+    width: 100%;
+    height: auto;
+}
+div.p-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    color:black;
+    margin-top: .3em;
+    border-style:none;
+}
+div.p-price {
+    color: #f44242;
+    margin-top:-.8em;
+}
+
+.currency-symbol {
+    font-size: 1.9em;
+}
+
+.price-text {
+    margin-left:-4.8%;
+}
+
+div.p-desc {
+    color: #888;
+    font-size: 1.3em;
+    margin-top:.1em;
+    font-family:fantasy;
+}
+div.p-add {
+    color: #F46B41;
+    border: none;
+    width:50%;
+    padding: 10px;
+    margin: 10px 5px 5px 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    height: 100%;
+}
+
+.button-container {
+    background: #f46b41;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 200 !important; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #fefefe;
+    border-style: none;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    border-style:none;
+  color: black;
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%; /* Could be more or less, depending on screen size */
+  height:60%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top:-2.5%;
+  margin-left:5%;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.box-text {
+    float:center;
+    margin-left:26.5%;
+}
+
+.item-name {
+    width:60%;
+    margin-top:-23.5%;
+}
+
+.item-description {
+    float:center;
+    margin-top: 1%;
+    width:50%;
+}
+
+.item-description {
+    font-size: 10px;
+}
+
+.image-box {
+    display:block;
+    width:25%;
+    height:auto;
+}
+
+.item-price {
+    float:center;
+    margin-top:1.5%;
+    color:red;
+    font-size: 1.8em;
+    
+}
+
+#buy-now {
+    margin-top:1%;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1024px) {
+#p-grid { grid-template-columns: 33% 33% 33%; }
+}
+@media only screen and (max-width: 600px) {
+#p-grid { grid-template-columns: 50% 50%; }
+}
