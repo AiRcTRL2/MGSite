@@ -1,1 +1,1 @@
-MGSite
+A friend of mine asked me to build a Shopping platform for her small business. Never ended up finishing this project, but it was an awesome exploration of my HTML, JS and CSS improvement while figuring out how to work with third-party SDKs such as Paypal to integrate payment systems.
